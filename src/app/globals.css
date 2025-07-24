@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FBFBFB;
+  --foreground: #FBFBFB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #FBFBFB;
+    --foreground: #FBFBFB;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Inter", sans-serif;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'AeonikProLight';
+  src: url('/fonts/AeonikPro/AeonikPro-Light.otf') format('truetype'),  url('/fonts/AeonikPro/AeonikPro-Light.woff') format('woff'),  url('/fonts/AeonikPro/AeonikPro-Light.woff2') format('woff2');
+  font-weight: 100; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AeonikProRegular';
+  src: url('/fonts/AeonikPro/AeonikPro-Regular.otf') format('truetype'), url('/fonts/AeonikPro/AeonikPro-Regular.woff') format('woff'), url('/fonts/AeonikPro/AeonikPro-Regular.woff2') format('woff2');
+  font-weight: 300; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AeonikProMedium';
+  src: url('/fonts/AeonikPro/AeonikPro-Medium.ttf') format('truetype'), url('/fonts/AeonikPro/AeonikPro-Medium.woff') format('woff'), url('/fonts/AeonikPro/AeonikPro-Medium.woff2') format('woff2');
+  font-weight: 400; 
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'AeonikProBold';
+  src: url('/fonts/AeonikPro/AeonikPro-Bold.otf') format('truetype'), url('/fonts/AeonikPro/AeonikPro-Bold.woff') format('woff'), url('/fonts/AeonikPro/AeonikPro-Bold.woff2') format('woff2');
+  font-weight: 600; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrittiSansLight';
+  src: url('/fonts/BrittiSans/BrittiSans-Light.otf') format('truetype'),url('/fonts/BrittiSans/BrittiSansTrial-Light.woff') format('woff'),url('/fonts/BrittiSans/BrittiSansTrial-Light.woff2') format('woff2');
+  font-weight: 100; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrittiSansRegular';
+  src: url('/fonts/BrittiSans/BrittiSans-Regular.otf') format('truetype'),url('/fonts/BrittiSans/BrittiSansTrial-Regular.woff') format('woff'),url('/fonts/BrittiSans/BrittiSansTrial-Regular.woff2') format('woff2');
+  font-weight: 300; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrittiSansSemiBold';
+  src: url('/fonts/BrittiSans/BrittiSans-Semibold.otf') format('truetype'),url('/fonts/BrittiSans/BrittiSansTrial-Semibold.woff') format('woff'),url('/fonts/BrittiSans/BrittiSansTrial-Semibold.woff2') format('woff2');
+  font-weight: 500; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrittiSansBold';
+  src: url('/fonts/BrittiSans/BrittiSansTrial-Bold.woff2') format('woff2');
+  font-weight: 600; 
+  font-style: normal;
+}
